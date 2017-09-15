@@ -1,7 +1,7 @@
 'use strict'
 
 require('bootstrap/dist/css/bootstrap.css');
-require('./styles/style.css');
+require('./styles/main.scss');
 
 const React = require('react');
 const ReactDOM = require('react-dom');
