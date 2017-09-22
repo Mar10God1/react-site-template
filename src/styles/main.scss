@@ -24,3 +24,85 @@
   position: absolute;
   bottom: 0;
 }
+
+.parallax {
+    position: relative;
+    /* The image used */
+    background-image: url("../img/background.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainContent {
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  right: 0;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  &__headerImg {
+    height: 150px;
+    width: 150px;
+    background: white;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-image: url("../img/headshot.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__headline {
+    text-align: center;
+    color: white;
+  }
+
+  &__social {
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 15px;
+  }
+}
+
+.bottom {
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  font-size: 40px;
+
+  a {
+    display: table;
+    margin: auto;
+
+    > .white {
+      color: white;
+    }
+
+    > .black {
+      color: black;
+    }
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+}
+
+.fakeData {
+  position: relative;
+  height: 100vh;
+}
