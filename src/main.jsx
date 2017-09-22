@@ -2,6 +2,7 @@
 
 require('bootstrap/dist/css/bootstrap.css');
 require('./styles/main.scss');
+require('font-awesome/css/font-awesome.css');
 
 const React = require('react');
 const ReactDOM = require('react-dom');
